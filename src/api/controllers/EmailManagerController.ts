@@ -17,8 +17,7 @@ class EmailManager extends GenericController {
         status: 200,
         body: { message: 'Email sent succesfully' },
       };
-    } catch (error) {
-      console.log(error);
+    } catch {
       return {
         status: 400,
         body: { message: 'Failed to sent email' },
