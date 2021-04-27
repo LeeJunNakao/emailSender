@@ -2,7 +2,6 @@ node_modules
 dist
 coverage
 .env
-yarn.lock
 yarn-error.log
 .env.test
 npm-debug.log
